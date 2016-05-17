@@ -1,0 +1,8 @@
+name: example
+home: https://jaco.udcp.info
+version: 0.0.1
+description: Helmc example
+maintainers:
+    - Kazuto Kusama <jacopen@gmail.com>
+details:
+    This chart contains some examples 
