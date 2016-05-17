@@ -18,3 +18,8 @@ spec:
         image: nginx
         ports:
         - containerPort: 28080
+        env:
+          - name: ENV1
+            value: {{.example.env1}}
+          - name: ENV2
+            value: {{env "ENV2" | default .example.env2}}
